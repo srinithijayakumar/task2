@@ -72,7 +72,7 @@ body {
 .client-logos {
   display: flex;
   justify-content: center;
-  gap: 50px;
+  gap: 150px;
   margin-top: 30px;
 
 }
