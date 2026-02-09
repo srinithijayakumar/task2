@@ -430,3 +430,158 @@ footer{
   /* color: white; */
 
 }
+.Lay-logos{
+  display: flex;
+}
+
+
+@media (max-width:1024px){
+
+  .navbar{
+    padding:20px 30px;
+  }
+
+  .hero{
+    flex-direction:column;
+    text-align:center;
+    padding:60px 30px;
+  }
+
+  .hero-img img{
+    width:80%;
+    margin-top:20px;
+  }
+
+  .features-cards{
+    flex-wrap:wrap;
+  }
+
+  .card{
+    width:45%;
+    padding:40px;
+  }
+
+  .container,
+  .box{
+    flex-direction:column;
+    text-align:center;
+    gap:40px;
+  }
+
+  .stats-right{
+    flex-direction:column;
+    height:auto;
+    gap:30px;
+  }
+
+  .client-logos{
+    flex-wrap:wrap;
+    gap:40px;
+  }
+
+  .pic{
+    flex-wrap:wrap;
+  }
+
+  .footer-container{
+    flex-direction:column;
+    gap:40px;
+  }
+
+}
+
+
+@media (max-width:768px){
+
+  .navbar{
+    flex-direction:column;
+    gap:15px;
+    padding:15px;
+  }
+
+  .navbar nav{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+  }
+
+  .navbar nav a{
+    margin:5px 10px;
+  }
+
+  .hero-text h1{
+    font-size:28px;
+  }
+
+  .register{
+    padding:10px 30px;
+  }
+
+  .card{
+    width:100%;
+  }
+
+  .hero-left img,
+  .container-left img,
+  .Lay-left img{
+    width:100%;
+  }
+
+  .stats-left h2{
+    font-size:22px;
+  }
+
+  .blog h2{
+    font-size:24px;
+  }
+
+  .subt{
+    width:90%;
+  }
+
+  .pic{
+    flex-direction:column;
+    align-items:center;
+  }
+
+  .card-text,
+  .img-pic{
+    width:100%;
+  }
+
+  .cardpic{
+    position:relative;
+    left:0;
+    bottom:0;
+    width:100%;
+    margin-top:-40px;
+  }
+
+  .footer-links{
+    flex-direction:column;
+    gap:20px;
+  }
+
+}
+
+
+
+@media (max-width:480px){
+
+  .hero-text h1{
+    font-size:22px;
+  }
+
+  .cta h1{
+    font-size:24px;
+  }
+
+  .signup{
+    padding:6px 14px;
+  }
+
+  .client-logos img{
+    width:30px;
+  }
+
+}
