@@ -434,7 +434,6 @@ footer{
   display: flex;
 }
 
-
 @media (max-width:1024px){
 
   .navbar{
@@ -563,9 +562,6 @@ footer{
   }
 
 }
-
-
-
 @media (max-width:480px){
 
   .hero-text h1{
